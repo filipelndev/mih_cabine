@@ -52,7 +52,7 @@ const ImageModal: React.FC<ImageModalProps> = ({
         {/* Setas de navegação */}
         <button
           onClick={onPrevious}
-          className="absolute left-[-90px] text-white text-4xl bg-black bg-opacity-50 rounded-full p-2"
+          className="absolute left-4 md:left-[-90px] text-white text-2xl md:text-4xl bg-black bg-opacity-50 rounded-full p-2"
         >
           ←
         </button>
@@ -62,10 +62,13 @@ const ImageModal: React.FC<ImageModalProps> = ({
           alt="Imagem ampliada"
           className="max-w-full max-h-screen rounded-lg shadow-lg"
         />
+        
+
+
 
         <button
           onClick={onNext}
-          className="absolute right-[-90px] text-white text-4xl bg-black bg-opacity-50 rounded-full p-2"
+          className="absolute right-4 md:right-[-90px] text-white text-2xl md:text-4xl bg-black bg-opacity-50 rounded-full p-2"
         >
           →
         </button>
